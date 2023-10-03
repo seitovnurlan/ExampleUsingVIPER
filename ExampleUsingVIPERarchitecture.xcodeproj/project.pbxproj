@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		28BBB8442AB458CC002E5439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBB8432AB458CC002E5439 /* AppDelegate.swift */; };
 		28BBB8462AB458CC002E5439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBB8452AB458CC002E5439 /* SceneDelegate.swift */; };
-		28BBB8482AB458CC002E5439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBB8472AB458CC002E5439 /* ViewController.swift */; };
-		28BBB84B2AB458CC002E5439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BBB8492AB458CC002E5439 /* Main.storyboard */; };
+		28BBB8482AB458CC002E5439 /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBB8472AB458CC002E5439 /* PhotoListViewController.swift */; };
 		28BBB84D2AB458CE002E5439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BBB84C2AB458CE002E5439 /* Assets.xcassets */; };
 		28BBB8502AB458CE002E5439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BBB84E2AB458CE002E5439 /* LaunchScreen.storyboard */; };
+		28BBB85B2AB46267002E5439 /* PhotoListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBB85A2AB46267002E5439 /* PhotoListViewProtocol.swift */; };
+		28BBB85D2AB462F3002E5439 /* PhotoListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBB85C2AB462F3002E5439 /* PhotoListInteractor.swift */; };
+		28BBB85F2AB46319002E5439 /* PhotoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBB85E2AB46319002E5439 /* PhotoListPresenter.swift */; };
+		28BBB8612AB46336002E5439 /* PhotoListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBB8602AB46336002E5439 /* PhotoListRouter.swift */; };
+		28BBB8642AB4653A002E5439 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 28BBB8632AB4653A002E5439 /* Alamofire */; };
+		28BBB8672AB465A6002E5439 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 28BBB8662AB465A6002E5439 /* SwiftyJSON */; };
+		28BBB8692AB465F6002E5439 /* PhotoListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BBB8682AB465F6002E5439 /* PhotoListEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28BBB8402AB458CC002E5439 /* ExampleUsingVIPERarchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleUsingVIPERarchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BBB8432AB458CC002E5439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28BBB8452AB458CC002E5439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		28BBB8472AB458CC002E5439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		28BBB84A2AB458CC002E5439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28BBB8472AB458CC002E5439 /* PhotoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
 		28BBB84C2AB458CE002E5439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28BBB84F2AB458CE002E5439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28BBB8512AB458CE002E5439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BBB85A2AB46267002E5439 /* PhotoListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewProtocol.swift; sourceTree = "<group>"; };
+		28BBB85C2AB462F3002E5439 /* PhotoListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListInteractor.swift; sourceTree = "<group>"; };
+		28BBB85E2AB46319002E5439 /* PhotoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListPresenter.swift; sourceTree = "<group>"; };
+		28BBB8602AB46336002E5439 /* PhotoListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListRouter.swift; sourceTree = "<group>"; };
+		28BBB8682AB465F6002E5439 /* PhotoListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BBB8672AB465A6002E5439 /* SwiftyJSON in Frameworks */,
+				28BBB8642AB4653A002E5439 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +68,43 @@
 		28BBB8422AB458CC002E5439 /* ExampleUsingVIPERarchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				28BBB8432AB458CC002E5439 /* AppDelegate.swift */,
-				28BBB8452AB458CC002E5439 /* SceneDelegate.swift */,
-				28BBB8472AB458CC002E5439 /* ViewController.swift */,
-				28BBB8492AB458CC002E5439 /* Main.storyboard */,
-				28BBB84C2AB458CE002E5439 /* Assets.xcassets */,
-				28BBB84E2AB458CE002E5439 /* LaunchScreen.storyboard */,
-				28BBB8512AB458CE002E5439 /* Info.plist */,
+				28BBB8572AB461B1002E5439 /* App */,
+				28BBB8592AB46208002E5439 /* Resources */,
+				28BBB8582AB461E9002E5439 /* Modules */,
 			);
 			path = ExampleUsingVIPERarchitecture;
+			sourceTree = "<group>";
+		};
+		28BBB8572AB461B1002E5439 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				28BBB8432AB458CC002E5439 /* AppDelegate.swift */,
+				28BBB8452AB458CC002E5439 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		28BBB8582AB461E9002E5439 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				28BBB8472AB458CC002E5439 /* PhotoListViewController.swift */,
+				28BBB85A2AB46267002E5439 /* PhotoListViewProtocol.swift */,
+				28BBB85C2AB462F3002E5439 /* PhotoListInteractor.swift */,
+				28BBB85E2AB46319002E5439 /* PhotoListPresenter.swift */,
+				28BBB8602AB46336002E5439 /* PhotoListRouter.swift */,
+				28BBB8682AB465F6002E5439 /* PhotoListEntity.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		28BBB8592AB46208002E5439 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28BBB84E2AB458CE002E5439 /* LaunchScreen.storyboard */,
+				28BBB84C2AB458CE002E5439 /* Assets.xcassets */,
+				28BBB8512AB458CE002E5439 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +123,10 @@
 			dependencies = (
 			);
 			name = ExampleUsingVIPERarchitecture;
+			packageProductDependencies = (
+				28BBB8632AB4653A002E5439 /* Alamofire */,
+				28BBB8662AB465A6002E5439 /* SwiftyJSON */,
+			);
 			productName = ExampleUsingVIPERarchitecture;
 			productReference = 28BBB8402AB458CC002E5439 /* ExampleUsingVIPERarchitecture.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +155,10 @@
 				Base,
 			);
 			mainGroup = 28BBB8372AB458CC002E5439;
+			packageReferences = (
+				28BBB8622AB4653A002E5439 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				28BBB8652AB465A6002E5439 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 28BBB8412AB458CC002E5439 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +175,6 @@
 			files = (
 				28BBB8502AB458CE002E5439 /* LaunchScreen.storyboard in Resources */,
 				28BBB84D2AB458CE002E5439 /* Assets.xcassets in Resources */,
-				28BBB84B2AB458CC002E5439 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +185,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28BBB8482AB458CC002E5439 /* ViewController.swift in Sources */,
+				28BBB85D2AB462F3002E5439 /* PhotoListInteractor.swift in Sources */,
+				28BBB8482AB458CC002E5439 /* PhotoListViewController.swift in Sources */,
+				28BBB8692AB465F6002E5439 /* PhotoListEntity.swift in Sources */,
+				28BBB8612AB46336002E5439 /* PhotoListRouter.swift in Sources */,
+				28BBB85B2AB46267002E5439 /* PhotoListViewProtocol.swift in Sources */,
+				28BBB85F2AB46319002E5439 /* PhotoListPresenter.swift in Sources */,
 				28BBB8442AB458CC002E5439 /* AppDelegate.swift in Sources */,
 				28BBB8462AB458CC002E5439 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +199,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28BBB8492AB458CC002E5439 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28BBB84A2AB458CC002E5439 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		28BBB84E2AB458CE002E5439 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +333,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TGA44R678;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExampleUsingVIPERarchitecture/Info.plist;
+				INFOPLIST_FILE = ExampleUsingVIPERarchitecture/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,9 +345,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SeitovN.ExampleUsingVIPERarchitecture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,10 +363,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TGA44R678;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExampleUsingVIPERarchitecture/Info.plist;
+				INFOPLIST_FILE = ExampleUsingVIPERarchitecture/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,9 +375,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SeitovN.ExampleUsingVIPERarchitecture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +406,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28BBB8622AB4653A002E5439 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		28BBB8652AB465A6002E5439 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28BBB8632AB4653A002E5439 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28BBB8622AB4653A002E5439 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		28BBB8662AB465A6002E5439 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28BBB8652AB465A6002E5439 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 28BBB8382AB458CC002E5439 /* Project object */;
 }
